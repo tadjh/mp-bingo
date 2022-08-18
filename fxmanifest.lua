@@ -1,6 +1,6 @@
 fx_version "cerulean"
 
-description "np-bingo"
+description "mp-bingo"
 author "Tadjh"
 version '0.1.0'
 repository 'https://github.com/tadjh/np-bingo'
@@ -19,4 +19,5 @@ server_script "server/server.lua"
 
 files {
   'web/build/index.html',
+  'web/build/**/*'
 }

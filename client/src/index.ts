@@ -11,6 +11,7 @@ let isOpen = false;
 
 function setNuiFrame(isOpen: boolean) {
   SetNuiFocus(isOpen, isOpen);
+  SetNuiFocusKeepInput(true);
   SendReactMessage(SET_VISIBILITY, isOpen);
 }
 
