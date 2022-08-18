@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  header,
+  main,
+  footer {
+    @apply z-10 flex;
+  }
+  header {
+    @apply mt-[30px] gap-1 py-2;
+  }
+  main {
+    @apply flex-col items-center gap-y-4;
+  }
+  footer {
+    @apply flex-col items-center justify-end gap-1 py-1;
+  }
+}
+
+@layer utilities {
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  .animation-delay-900 {
+    animation-delay: 900ms;
+  }
+  .animation-delay-1200 {
+    animation-delay: 1200ms;
+  }
+}
